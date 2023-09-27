@@ -1,0 +1,53 @@
+@font-face {
+    src: url(./Fonts/SpaceMono-Regular.ttf);
+    font-family: 'mono-400';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(./Fonts/SpaceMono-Bold.ttf);
+    font-family: 'mono-700';
+    font-weight: 700;
+}
+
+@font-face {
+    src: url(./Fonts/WorkSans-Regular.ttf);
+    font-family: 'sans-400';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(./Fonts/WorkSans-SemiBold.ttf);
+    font-family: 'sans-600';
+    font-weight: 600;
+}
+
+@font-face {
+    src: url(./Fonts/WorkSans-Bold.ttf);
+    font-family: 'sans-700';
+    font-weight: 700;
+}
+
+
+body{
+    background: #333;
+    color: #fff;
+}
+
+/* header */
+.header .navbar .menu .navbar-nav {
+    gap: 10px;
+}
+.header .navbar .menu .navbar-nav li{
+    padding: 0 30px;
+    
+}
+.header .navbar .menu .navbar-nav li a{
+    font-family: 'sans-600';
+    
+}
+.header .navbar .menu .navbar-nav li:hover {
+    background: #A259FF;
+    border-radius: 20px;
+    
+}
