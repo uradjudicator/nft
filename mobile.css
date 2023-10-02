@@ -1,0 +1,66 @@
+/* 1025 */
+@media(max-width:1025px) {
+
+}
+
+/* 991 */
+@media(max-width:991px) {
+    header .navbar .logo{
+        width: 150px;
+        height: 20px;
+    }
+    .header .navbar .menu .navbar-nav {
+      
+        justify-content: flex-end;
+        gap: 7px;
+    
+    } 
+   
+.header .navbar .menu .navbar-nav li {
+    font-size: 12px;
+    padding: 0 8px;
+}
+
+.header .navbar .menu .navbar-nav li a {
+    font-family: 'sans-600';
+}
+
+.header .navbar .menu .navbar-nav li:hover {
+    background: #A259FF;
+    border-radius: 20px;
+    
+}
+/* hero */
+.header .hero .left .title {
+    width: 428px;
+    font-size: 56px;
+    background: #000;
+}
+
+.header .hero .left .text {
+    width: 428px;
+    font-size: 17px;
+}
+
+.header .hero .left .info {
+    gap: 15px;
+}
+
+.header .hero .right .card{
+    width: 330px;
+    height: 330px;
+    
+}
+};
+
+/* 770px */
+@media(max-width:770px) {}
+
+/* 570px */
+@media(max-width:570px) {
+}
+
+/* 425px */
+@media(max-width:425px) {
+
+}

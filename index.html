@@ -10,19 +10,27 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- css -->
     <link rel="stylesheet" href="style.css">
+    <!-- mobile -->
+    <link rel="stylesheet" href="mobile.css">
     <title>Nft</title>
 </head>
 <body>
     <header class="header">
         <div class="container">
+            <!-- navbar -->
          <nav class="navbar">
-            <div class="logo">
+            <div class="logo ">
                 <img src="images/nav-logo.png" alt="">
             </div>
             <div class="menu">
-                <ul class="navbar-nav d-flex flex-row  ">
+                <!-- mobile -->
+                <div class="mobile-menu">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </div>
+
+                <ul class="navbar-nav px-3 justify-content-end ">
                     <li class="nav-item">
-                      <a class="nav-link text-white"  href="#">Marketplace</a>
+                      <a class="nav-link text-white" href="#">Marketplace</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link text-white" href="#">Rankings</a>
@@ -37,15 +45,17 @@
                   </ul>
             </div>
          </nav>
-         <section class="hero">
-            <div class="wrapper">
+         <!-- hero -->
+             <section class="hero py-5">
+                 <div class="row ">
                 <!-- right -->
-                <div class="right">
-    
-                    <h1 class="title">Discover digital art & Collect NFTs</h1>
+                <div class="left col-12 col-md-8 col-lg-6 ">
+                    <h1 class="title ">Discover digital art & Collect NFTs</h1>
                     <p class="text">NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
-                    <button type="button" class="btn">Get Started</button>
-                    <div class="info">
+                    <button type="button" class="btn text-white">
+                        <i class="fa-solid fa-rocket"></i>
+                        Get Started</button>
+                    <div class="info  d-flex  ">
                         <!-- item -->
                         <div class="item">
                             <p class="number">240k+ </p>
@@ -64,8 +74,17 @@
                     </div>
                 </div>
                 <!-- left -->
-                <div class="left">
-                    
+                <div class="right col-12 col-md-4 col-lg-6">
+                    <div class="card border-0" style="width: 510px; height: 510px;">
+                        <img src="images/main-img.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-white">Space Walking</p>
+                          <div class="user d-flex">
+                            <img src="images/Robo-avatar.png" alt="" class="avatar">
+                            <p class="user-info">Animakid</p>
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </div>
          </section>

@@ -29,25 +29,147 @@
 }
 
 
-body{
+body {
     background: #333;
     color: #fff;
 }
 
 /* header */
+.header .navbar .logo{
+    width: 182px;
+    height: 24px;
+}
+.header .navbar .logo img{
+    width: 100%;
+    height: 100%;
+}
 .header .navbar .menu .navbar-nav {
-    gap: 10px;
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+  
+
 }
-.header .navbar .menu .navbar-nav li{
-    padding: 0 30px;
+.header .navbar .menu .mobile-menu {
+    display: none;
+}
+
+.header .navbar .menu .navbar-nav li {
     
+    padding: 0 15px;
 }
-.header .navbar .menu .navbar-nav li a{
+
+.header .navbar .menu .navbar-nav li a {
     font-family: 'sans-600';
-    
+
 }
+
 .header .navbar .menu .navbar-nav li:hover {
     background: #A259FF;
     border-radius: 20px;
-    
+
 }
+
+.header .hero .left .title {
+    width: 510px;
+    color: #fff;
+    font-family: 'sans-600';
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.header .hero .left .text {
+    width: 510px;
+    color: #fff;
+    font-family: 'sans-400';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px 0 30px;
+}
+
+.header .hero .left .info {
+    gap: 30px;
+}
+
+.header .hero .left .btn {
+    color: #FFF;
+    text-align: center;
+    font-family: 'sans-600';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background: #A259FF;
+    border: none;
+}
+
+.header .hero .left .btn i {
+    margin-left: 12px;
+}
+
+.header .hero .left .info {
+    margin-top: 30px;
+    width: 510px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .hero .left .item .number {
+    margin: 0;
+    font-family: 'mono-700';
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.header .hero .left .item .desc {
+    margin: 0;
+    font-family: 'sans-400';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.header .hero .right .card {
+    border-radius: 20px;
+    width: 510px;
+    height: 510px;
+}
+
+.header .hero .right .card img {
+    overflow: hidden;
+}
+
+.header .hero .right .card .card-body {
+    background: #3B3B3B;
+}
+
+.header .hero .right .card .card-body .card-text {
+    color: #FFF;
+    font-family: 'sans-600';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.header .hero .right .card .card-body .user{
+    gap: 12px;
+}
+.header .hero .right .card .card-body .user img {
+    width: 24px;
+    height: 24px;
+}
+.header .hero .right .card .card-body .user p {
+    color: #FFF;
+    font-family: 'sans-400';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
