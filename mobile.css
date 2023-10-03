@@ -1,7 +1,29 @@
 /* 1025 */
 @media(max-width:1025px) {
+    header .hero .left {
+        max-width: 428px;
+    }
+    .header .hero .left .title {
+        max-width: 428px;
+        font-size: 56px;
+        background: #000;
+    }
+    
+    .header .hero .left .text {
+        max-width: 428px;
+        font-size: 17px;
+    }
+    
+    .header .hero .left .info {
+        gap: 15px;
+        max-width: 428px;
+    }
+    
+    .header .hero .right{
+        max-width: 428px;
+    }
+    };
 
-}
 
 /* 991 */
 @media(max-width:991px) {
@@ -31,23 +53,27 @@
     
 }
 /* hero */
+.header .hero .left {
+    max-width: 428px;
+}
 .header .hero .left .title {
-    width: 428px;
+    max-width: 428px;
     font-size: 56px;
     background: #000;
 }
 
 .header .hero .left .text {
-    width: 428px;
+    max-width: 428px;
     font-size: 17px;
 }
 
 .header .hero .left .info {
     gap: 15px;
+    max-width: 428px;
 }
 
-.header .hero .right .card{
-    width: 330px;
+.header .hero .right{
+    max-width: 428px;
     height: 330px;
     
 }
